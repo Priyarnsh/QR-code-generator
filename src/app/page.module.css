@@ -31,6 +31,7 @@
   max-width: 1200px;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .footer {
@@ -41,10 +42,47 @@
 }
 
 @media (max-width: 768px) {
-  .title {
-    font-size: 2.5rem;
-  }
   .container {
     padding: 1rem;
+  }
+
+  .header {
+    margin-bottom: 2rem;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .footer {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0.75rem;
+  }
+
+  .header {
+    margin-bottom: 1.25rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+    letter-spacing: -0.03em;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
   }
 }
