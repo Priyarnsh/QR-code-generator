@@ -10,6 +10,7 @@
 @media (max-width: 950px) {
   .wrapper {
     grid-template-columns: 1fr;
+    gap: 0;
   }
 }
 
@@ -310,6 +311,7 @@ textarea.inputField {
 @media (max-width: 480px) {
   .wrapper {
     border-radius: 1rem;
+    gap: 0;
   }
 
   .editorPanel {
