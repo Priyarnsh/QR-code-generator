@@ -19,7 +19,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <p>&copy; {new Date().getFullYear()} QR Code Generator. Built with Next.js.</p>
+        <p>&copy; {new Date().getFullYear()} QR Code Generator. Built with ❤️ by Priyansh Patel.</p>
       </footer>
     </div>
   );
